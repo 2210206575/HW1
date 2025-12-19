@@ -1,0 +1,35 @@
+Name : BASIM BASIM 			STD No : 2210206575
+
+Algorithm insert (LA, N, K, ITEM)
+1. start
+2. set J=N
+3. Repeat step 4 and 5 while J>= K 
+4. LA[J+1] = LA[J]
+5. J=J-1
+6. LA[K] = ITEM
+7. N=N+1
+8. stop
+
+
+
+Delete(LA, N, K)
+1. start
+2. Repeat steps 3 and 4 while K<N
+3. LA[K] = LA[K+1]
+4. K=K+1
+5. N=N-1
+6. stop
+
+
+
+
+
+Search(LA, N, ITEM)
+1. start
+2. set K=0
+3. Repeat steps 4 and 5 while K<N
+4. if LA[K] = ITEM then 
+5. return K
+6. K=K+1
+7. return -1 
+8. stop
